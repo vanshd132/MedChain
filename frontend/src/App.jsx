@@ -3,10 +3,6 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import axios from "axios";
-import Home from "./Pages/vanshEdit/Home";
-import Appointment1 from "./Pages/Appointment1";
-import AboutUs from "./Pages/AboutUs";
 import { Context } from "./main";
 import { GoogleOAuthProvider } from "@react-oauth/google";
 
@@ -22,6 +18,9 @@ import HospitalSendResponsePage from "./Pages/vansh/OCR";
 import UserDetails2 from "./Pages/vanshEdit/Userdetails2";
 import FileUpload from "./Pages/vanshEdit/FileUpload";
 import HospitalDetails from "./Pages/vanshEdit/HospitalDetails";
+import Home from "./Pages/vanshEdit/Home";
+import Appointment1 from "./Pages/Appointment1";
+import AboutUs from "./Pages/AboutUs";
 
 
 const App = () => {
