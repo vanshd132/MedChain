@@ -1,1 +1,6 @@
-OK lets write this a later on , for now i m tired after night work
+# MedChain
+### API Keys Used
+* Gemini API key
+* Google Client ID
+* Stripe Secret Key
+* Stripe PK
